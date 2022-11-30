@@ -1,0 +1,28 @@
+  import random
+ when = ['A few years ago','Yesterday','Last night','Few days
+ ago','Today','Last Sunday','Last evening','On a windy
+ day','On a summer noon','Last Christmas','Last Monday','Last
+ weekend']
+ who = ['a rabbit','an elephant','a mouse','a turtle','a
+ cat','a lion','a fish','a dog','a cockroach','a heron','a
+ seahorse','a horse','a zebra','a unicorn','an ant','a
+ parrot','a hamster']
+ name=['Johnny','Stanley','Oogway','Meg','Brian','Peter','Chri
+s','Joe','Chloe','Ryan','Jordan','David','Lily','Olivia','Jas
+mine','Bella','Emily','Henna','Ace','Finch','Atlas','Marshel'
+]
+ residence = ['India','a jungle','a city','a village','flat
+ 101','streets','a forest','a field','a ground','a ocean','a
+ bin','America','Boston','Mark Street','Downtown','Hopil Inn']
+ went =
+ ['cinema','playground','seminar','school','hotel','park','bea
+ ch','mall','college','office','cabin','woods','guest
+ house','bar','highway','sea shore','market','island','fair']
+ happened = ['made a lot of friends','ate a pizza','found a
+ key','wrote a book','discovered a mistery','opened a
+buisness','got bankrupt','got a heartattack','played
+ cricket','bought a car','danced','made a reel']
+ print(random.choice(when)+", "+random.choice(who)+' named
+ '+random.choice(name)+' that lived in
+ '+random.choice(residence)+', went to the
+ '+random.choice(went)+' and '+random.choice(happened)+'.')
